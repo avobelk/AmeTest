@@ -28,6 +28,7 @@ namespace TestWpfApplication
     private void FrameworkElement_OnLoaded(object sender, RoutedEventArgs e)
     {
       ControlView.DataContext = new CustomControlViewModel();
+      ControlView.InitializeComponent();
     }
   }
 }
